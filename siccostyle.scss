@@ -1,11 +1,30 @@
 body {
-  background-color:darkseagreen;
+  background-color: darkseagreen;
+  font-family: 'Caveat', cursive;
+  font-size:30px;
+  background-image: linear-gradient(#9E7EE9, #E89B6E);
 }
 
-p {
-  font-family:Arial;
+h1 {
+  font-size: 75px;
+  color: white;
+
 }
 
 .painting {
   display:block;
 }
+
+em {
+  text-color:red;
+}
+
+.content>h2, h3, h4 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+#redtext {
+  color:red;
+}
+
