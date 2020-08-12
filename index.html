@@ -17,10 +17,9 @@
 
     <h1>EXPOSITION</h1>
     <div class="carousel">
-
-        <img src="eglomise.JPG" class="painting" alt="eglomise" width="50%" height="50%">
         <img src="plant.JPG" class="painting" alt="plant" width="50%" height="50%">
         <img src="lighthouse.JPG" class="painting" alt="lighthouse" width="50%" height="50%">
+        <img src="eglomise.JPG" class="painting" alt="eglomise" width="50%" height="50%">
 
         <button type="button" class="navigation" id="previous">Previous</button>
         <button type="button" class="navigation" id="next">Next</button>
@@ -30,8 +29,6 @@
 </header>
 
 <main>
-
-    <article>Number of visitors: <span id="number">10</span></article>
 
     <article class="article">
 
@@ -43,6 +40,7 @@
 
         <div class="content" data-tab="1">
             <h2>Summary</h2>
+            <p>
                 Exhibition by Antwerp-based artist
                 who meditates upon the beauty of simple things
                 like a </br> plant growing or a vast empty landscape,
@@ -55,11 +53,11 @@
             <p> Visit expo at
                 <a href="https://whosafraid.be/" target="_blank">"Who's afraid of Red, Yellow and Blue"</a>
                 on 6th November 2020 at 18:00 </br>
-                <em id="redtext">(postponed until further notice due to COVID-19)</em></br>
+                <bold id="redtext">(postponed until further notice due to COVID-19)</bold></br>
 
             </p>
             <p>
-                For further information please contact: victoria.sofianidou@gmail.com
+                For further information please contact: <bold id="bluetext"> victoria.sofianidou@gmail.com</bold></id>
             </p>
 
         </div>
@@ -80,11 +78,13 @@
                     <input type="text" name="message" id="message">
                 </div>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" id="submit">
             </form>
         </div>
 
     </article>
+
+    <article>Number of visitors: <span id="number">10</span></article>
 
 </main>
 
