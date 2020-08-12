@@ -5,7 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+
+    <link href="siccostyle.css" type="text/css" rel="stylesheet"/>
     <title>Art Expo</title>
 </head>
 <body>
@@ -24,61 +25,54 @@
 
     </div>
 
-
 </header>
 
 <main>
 
     <article>Number of visitors: <span id="number">10</span></article>
-    
 
-    <article class="tabs">
+    <article class="article">
 
-        <nav>
+        <div class="tabs">
+            <button type="button" class="tab" id="tab1">tab one</button>
+            <button type="button" class="tab" id="tab2">tab two</button>
+            <button type="button" class="tab" id="tab3">tab three</button>
+        </div>
 
-            <div>
-                <h2>Summary</h2>
-                <p>Exhibition by Antwerp-based artist
-                    who meditates upon the beauty of simple things
-                    like a plant growing or a vast empty landscape,
-                    hoping to inspire respect for the natural world.
-                </p>
-                <button type="button" class="tab" id="tab1">tab one</button>
+        <div class="content">
+            <h2>Summary</h2>
+            <p>Exhibition by Antwerp-based artist
+                who meditates upon the beauty of simple things
+                like a plant growing or a vast empty landscape,
+                hoping to inspire respect for the natural world.
+            </p>
+        </div>
 
-            </div>
+        <div class="content">
+            <h3>Practical Info</h3>
+            <p> Visit expo at "Who's afraid of Red, Yellow and Blue"
+                https://whosafraid.be/
+                6th November 2020 at 18:00
+                (postponed until further notice due to COVID-19)
+                Contact: victoria.sofianidou@gmail.com
+            </p>
+        </div>
 
-            <div>
-                <h3>Practical Info</h3>
-                <p> Visit expo at "Who's afraid of Red, Yellow and Blue"
-                    https://whosafraid.be/
-                    6th November 2020 at 18:00
-                    (postponed until further notice due to COVID-19)
-                    Contact: victoria.sofianidou@gmail.com
-                </p>
-                <button type="button" class="tab" id="tab2">tab two</button>
-
-            </div>
-
-            <div>
-                <h4>Contact form</h4>
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="message">Message</label>
-                    <input type="text" name="message" id="message">
-                </form>
-                <button type="button" class="tab" id="tab3">tab three</button>
-
-            </div>
-
-        </nav>
+        <div class="content">
+            <h4>Contact form</h4>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message</label>
+                <input type="text" name="message" id="message">
+            </form>
+        </div>
 
     </article>
 
 </main>
-
 
 <script src="index.js"></script>
 </body>

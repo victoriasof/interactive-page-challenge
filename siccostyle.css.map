@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,gBAAgB,EAAC,YAAY;;AAG/B,CAAE;EACA,WAAW,EAAC,KAAK;;AAGnB,SAAU;EACR,OAAO,EAAC,KAAK",
+"sources": ["siccostyle.scss"],
+"names": [],
+"file": "siccostyle.css"
+}
