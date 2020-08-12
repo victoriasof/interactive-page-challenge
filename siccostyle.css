@@ -23,7 +23,7 @@ h1 {
 .content {
   display: none; }
 
-.active {
+div.active {
   display: block; }
 
 #redtext {
