@@ -5,43 +5,73 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Art Expo</title>
 </head>
 <body>
 
 <header>
+
+    <h1>ART EXPO</h1>
     <div class="carousel">
 
-        3 images class painting
-        2 buttons class navigation
-        id previous next
+        <img src="eglomise.JPG" class="painting" alt="eglomise" width="50%" height="50%">
+        <img src="plant.JPG" class="painting" alt="plant" width="50%" height="50%">
+        <img src="lighthouse.JPG" class="painting" alt="lighthouse" width="50%" height="50%">
+
+        <button type="button" class="navigation" id="previous">Previous</button>
+        <button type="button" class="navigation" id="next">Next</button>
 
     </div>
+
+
 </header>
 
 <main>
-    <article class="numbers">
 
-        <section>
-
-        </section>
-
-        3 items
-        id first second third
-        class number
-
-    </article>
+    <article>Number of visitors: <span id="number">10</span></article>
+    
 
     <article class="tabs">
 
         <nav>
 
-            3 buttons
-            id tab1 tab2 tab3
-            class tab
+            <div>
+                <h2>Summary</h2>
+                <p>Exhibition by Antwerp-based artist
+                    who meditates upon the beauty of simple things
+                    like a plant growing or a vast empty landscape,
+                    hoping to inspire respect for the natural world.
+                </p>
+                <button type="button" class="tab" id="tab1">tab one</button>
 
-            3 divs for text fields
+            </div>
+
+            <div>
+                <h3>Practical Info</h3>
+                <p> Visit expo at "Who's afraid of Red, Yellow and Blue"
+                    https://whosafraid.be/
+                    6th November 2020 at 18:00
+                    (postponed until further notice due to COVID-19)
+                    Contact: victoria.sofianidou@gmail.com
+                </p>
+                <button type="button" class="tab" id="tab2">tab two</button>
+
+            </div>
+
+            <div>
+                <h4>Contact form</h4>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="message">Message</label>
+                    <input type="text" name="message" id="message">
+                </form>
+                <button type="button" class="tab" id="tab3">tab three</button>
+
+            </div>
 
         </nav>
 
