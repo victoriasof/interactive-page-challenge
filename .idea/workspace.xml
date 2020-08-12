@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="949b422f-d0b1-41c7-8295-636c14b94764" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/84b7f51bd3c20ef31cc97fdaa2e4cf07052f2abb/siccostyle.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/84b7f51bd3c20ef31cc97fdaa2e4cf07052f2abb/siccostyle.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siccostyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/siccostyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siccostyle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/siccostyle.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siccostyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/siccostyle.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597217443714</updated>
-      <workItem from="1597217444976" duration="19239000" />
+      <workItem from="1597217444976" duration="19608000" />
     </task>
     <servers />
   </component>
