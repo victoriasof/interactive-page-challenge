@@ -50,7 +50,17 @@ const handleTab = e => {
     tabs.forEach(tab => tab.classList.remove('active'));
     e.currentTarget.classList.add('active');
 
-    /*contents.forEach(content => content.classList.remove('active'));
-    [...contents].filter(content => content.dataset.tab === e.currentTarget.dataset.tab)[0].classList.add('active');*/
+    contents.forEach(content => content.classList.remove('active'));
+    [...contents].filter(content => content.dataset.tab === e.currentTarget.dataset.tab)[0].classList.add('active');
 }
 tabs.forEach(tab => tab.addEventListener('click', handleTab));
+
+//form button
+const submit = document.getElementById('submit');
+const name = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+document.addEventListener('keyup', function checkForm() {
+    submit.disabled = name.value === '' || email.value === '' || message.value === '';
+})
+
